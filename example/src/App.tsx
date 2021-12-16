@@ -1,13 +1,14 @@
-import React from 'react';
-import SayHello from 'typescript-react-test';
-import './App.css';
+import React from 'react'
+import { Button, SayHello } from 'typescript-react-test/lib/esm'
+import './App.css'
 
 function App() {
-  return (
-    <div className="App">
-     <SayHello name="Prateek" />
-    </div>
-  );
+    return (
+        <div className="App">
+            <SayHello name="Prateek" />
+            <Button text={'test'} />
+        </div>
+    )
 }
 
-export default App;
+export default App
