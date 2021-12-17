@@ -1,4 +1,4 @@
-import React, { Children } from 'react'
+import React from 'react'
 import styled from 'styled-components'
 
 // How I came up with Typescript Example for Button https://stackoverflow.com/questions/57424821/typescript-extend-react-component-props-for-styled-component-element
