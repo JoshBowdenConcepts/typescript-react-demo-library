@@ -15,7 +15,7 @@ The schema for this changelog is as follows:
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [1.0.0] December 16, 2021
 
 ### Added
 
@@ -27,11 +27,12 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ### Bugs
 
--   Running into this bug in example package: https://github.com/styled-components/styled-components/issues/3045 The fix might have been mentioned here https://github.com/facebook/react/issues/15315#issuecomment-479802153
+-   Running into this bug in example package when using yarn link: https://github.com/styled-components/styled-components/issues/3045 The fix might have been mentioned here https://github.com/facebook/react/issues/15315#issuecomment-479802153 This bug does not currently occur when installed via npm
 
 ### Notes
 
 -   Tested using yarn link in a simple create-react-app package and it worked with tree shaking but I am still getting the same error around styled components noted in the bugs section below
+-   Tested by creating a npm package and it worked without a hitch
 
 ## [Example Version] - Example Date
 

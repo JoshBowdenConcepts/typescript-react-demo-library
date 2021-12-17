@@ -1,5 +1,5 @@
 {
-    "name": "typescript-react-test",
+    "name": "@jbconcepts/react-typescript-component-library",
     "version": "1.0.0",
     "description": "Learning how to create React modules using TypeScript!",
     "main": "./lib/cjs/index.js",
