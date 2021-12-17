@@ -21,6 +21,10 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 -   Added Storybook to the current project
 
+### Changed
+
+-   Made peer dependencies dependencies so that styled-components could be correctly installed. This might only be needed for styled-components
+
 ### Notes
 
 -   Storybook running on linux requires the prefix set in the package.json which is `export NODE_OPTIONS=--openssl-legacy-provider;`

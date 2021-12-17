@@ -1,6 +1,6 @@
 {
     "name": "@jbconcepts/react-typescript-component-library",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Learning how to create React modules using TypeScript!",
     "main": "./lib/cjs/index.js",
     "module": "./lib/esm/index.js",
@@ -15,7 +15,7 @@
         "storybook": "export NODE_OPTIONS=--openssl-legacy-provider; start-storybook -p 6006",
         "build-storybook": "export NODE_OPTIONS=--openssl-legacy-provider; build-storybook"
     },
-    "peerDependencies": {
+    "dependencies": {
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
         "styled-components": "^5.3.3"
@@ -23,6 +23,7 @@
     "devDependencies": {
         "@babel/core": "^7.16.5",
         "@storybook/addon-actions": "^6.4.9",
+        "@storybook/addon-docs": "^6.4.9",
         "@storybook/addon-essentials": "^6.4.9",
         "@storybook/addon-links": "^6.4.9",
         "@storybook/addon-postcss": "^2.0.0",
