@@ -13,6 +13,8 @@ interface Props extends React.ComponentPropsWithoutRef<'button'> {
     id: string // overwriting a item like this makes it required when it was not-required we can do this for aria labels and such
 }
 
-export const Button = (props: Props) => {
+const Button = (props: Props) => {
     return <StyledButton {...props} />
 }
+
+export default Button
