@@ -15,6 +15,16 @@ The schema for this changelog is as follows:
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Added
+
+-   Added Storybook to the current project
+
+### Notes
+
+-   Storybook running on linux requires the prefix set in the package.json which is `export NODE_OPTIONS=--openssl-legacy-provider;`
+
 ## [1.1.0] December 16, 2021
 
 ### Changed
