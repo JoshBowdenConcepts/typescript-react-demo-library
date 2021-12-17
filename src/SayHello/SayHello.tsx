@@ -1,6 +1,10 @@
 import React from 'react'
 
-const SayHello = ({ name }: { name: string }): JSX.Element => (
+export interface SayHelloProps {
+    name: string
+}
+
+const SayHello = ({ name }: SayHelloProps): JSX.Element => (
     <div>Hey {name}, go hello to TypeScript.</div>
 )
 

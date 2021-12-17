@@ -23,7 +23,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ### Changed
 
--   Made peer dependencies dependencies so that styled-components could be correctly installed. This might only be needed for styled-components
+-   Made styled-components a regular dependency because we would be installing it in a package that doesn't already have it.
 
 ### Notes
 
