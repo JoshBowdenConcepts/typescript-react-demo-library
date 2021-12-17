@@ -15,6 +15,12 @@ The schema for this changelog is as follows:
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] December 16, 2021
+
+### Changed
+
+-   New button functionality to be tested with typescript
+
 ## [1.0.0] December 16, 2021
 
 ### Added

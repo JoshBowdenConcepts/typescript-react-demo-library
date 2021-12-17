@@ -1,33 +1,18 @@
 import React from 'react'
 import styled from 'styled-components'
-// import { Button } from '../../dist/bundle'
 
-const SCButton = styled.button`
-    color: #fff !important;
-    text-transform: uppercase;
-    text-decoration: none;
-    background: #288a0f;
-    padding: 20px;
-    border-radius: 5px;
-    display: inline-block;
-    border: none;
-    transition: all 0.4s ease 0s;
+// How I came up with Typescript Example for Button https://stackoverflow.com/questions/57424821/typescript-extend-react-component-props-for-styled-component-element
+
+const StyledButton = styled.button`
+    color: red;
 `
 
-export interface Props extends ComponentProps {
-    text: string
+// This can now use all inate button props which is really nice we don't need to specify anymore
+interface Props extends React.ComponentPropsWithoutRef<'button'> {
+    theme?: string
+    id: string // overwriting a item like this makes it required when it was not-required we can do this for aria labels and such
 }
 
-interface ComponentProps {
-    id?: string
+export const Button = (props: Props) => {
+    return <StyledButton {...props} />
 }
-
-const Button = ({ text = 'Button Text', id }: Props) => {
-    const componentProps: ComponentProps = {}
-    if (id) {
-        componentProps.id = id
-    }
-    return <SCButton {...componentProps}>{text}</SCButton>
-}
-
-export default Button
